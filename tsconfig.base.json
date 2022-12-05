@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@eitwo/five": ["five/src/index.ts"],
+      "@eitwo/four": ["four/src/index.ts"],
+      "@eitwo/one": ["one/src/index.ts"],
+      "@eitwo/three": ["three/src/index.ts"],
+      "@eitwo/two": ["two/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
