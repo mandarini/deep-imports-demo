@@ -1,12 +1,19 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
+import { five } from '@eitwo/five';
+import { four } from '@eitwo/four';
+import { One } from '@eitwo/one';
+import { Three } from '@eitwo/three';
+import { Two } from '@eitwo/two';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="eitwo" />
       <div />
+      <One />
+      <Two />
+      <Three />
+      <p>Text from four: {four()}</p>
+      <p>Text from five: {five()}</p>
     </>
   );
 }
